@@ -1,6 +1,6 @@
 import axios from 'axios';
 // Збереження ключа API в окремому файлі змінних
-import { KEY } from './api-key.js';
+import { KEY } from './api-js.js';
 
 // Перевірка помилок під час виконання запиту до серверу
 axios.defaults.baseURL = 'https://pixabay.com/api/';
